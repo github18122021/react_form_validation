@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrapper {
+  margin-bottom: 1rem;
+  /* width: 30rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper > label {
+  margin-right: 1rem;
+  /* background-color: yellow; */
+  /* display: block; */
+  width: 10rem;
+}
+
+.input-wrapper > input {
+  width: 20rem;
+}
+
+form > button[type="submit"] {
+  background-color: #343fdb;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+  /* border: 2px solid black; */
+  font-family: monospace;
+}
