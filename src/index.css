@@ -8,8 +8,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("https://images.pexels.com/photos/19019470/pexels-photo-19019470/free-photo-of-arc-de-triomphe-in-paris-france.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-size: cover;
+  background-position: center;
 }
 
+
+form {
+  background-color: #f7f7f7; /* Soft grayish background color */
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
 .input-wrapper {
   margin-bottom: 1rem;
   /* width: 30rem; */
