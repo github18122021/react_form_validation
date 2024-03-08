@@ -26,10 +26,10 @@ function App() {
   }, [formData, error]);
 
   function handleInputChange(e) {
-    console.log(e);
-    console.log(e.target);
-    console.log("name", e.target.name);
-    console.log("value", e.target.value);
+    // console.log(e);
+    // console.log(e.target);
+    // console.log("name", e.target.name);
+    // console.log("value", e.target.value);
 
     let { name, value } = e.target;
     setFormData((prevData) => {
